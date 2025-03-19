@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
+  base: 'https://github.com/jdelgadoutp/jairodelgadoapp.git',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
