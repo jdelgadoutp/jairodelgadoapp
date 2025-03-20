@@ -1,11 +1,11 @@
 <template>
     <div class="bg-white">
-        <header class="absolute inset-x-0 top-0 z-50">
+        <header class="absolute inset-x-30 top-0 z-50">
             <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
                     <a href="#" class="-m-1.5 p-1.5">
                         <span class="sr-only">Enginer Jairo Delgado</span>
-                        <img class="h-8 w-auto" src="@/assets/logojairodelgado.png" alt=""/>
+                        <img class="h-8 w-auto" src="@/assets/logojairodelgado.png" alt="" />
                     </a>
                 </div>
                 <div class="flex lg:hidden">
@@ -80,19 +80,21 @@
             </div>
         </div>
     </div>
+    <Footers></Footers>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import Footers from './Footers.vue';
 
 const navigation = [
     { name: 'Inicio', path: '/' },
     { name: 'Acerca de', path: '/about' },
     { name: 'Proyectos', path: '/projects' },
     { name: 'Servicios', path: '/services' },
-    { name: "Contacto", path: '/contact'},
+    { name: "Contacto", path: '/contact' },
 ]
 
 const mobileMenuOpen = ref(false)

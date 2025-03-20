@@ -23,4 +23,12 @@
             </div>
         </div>
     </div>
+    
 </template>
+
+<script>
+import Footers from '@/views/Footers.vue';
+
+
+
+</script>
