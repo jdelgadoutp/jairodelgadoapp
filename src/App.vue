@@ -5,9 +5,6 @@ import Index from './views/Index.vue';
 
 <template>
   <Index></Index>
-  <main>
-    <RouterView />
-  </main>
 </template>
 
 <style scoped></style>
