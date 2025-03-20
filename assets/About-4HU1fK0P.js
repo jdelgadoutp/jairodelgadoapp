@@ -1,0 +1,1 @@
+import{_ as o,c as a,a as s,o as t}from"./index-Dc4U2ovN.js";const c={},r={class:"mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"};function n(l,e){return t(),a("div",r,e[0]||(e[0]=[s("h1",null,"Acerca de Jairo Delgado",-1)]))}const d=o(c,[["render",n]]);export{d as default};
