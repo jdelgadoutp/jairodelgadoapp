@@ -91,7 +91,8 @@ const navigation = [
     { name: 'Inicio', path: '/' },
     { name: 'Acerca de', path: '/about' },
     { name: 'Proyectos', path: '/projects' },
-    { name: 'Servicios', path: 'services' },
+    { name: 'Servicios', path: '/services' },
+    { name: "Contacto", path: '/contact'},
 ]
 
 const mobileMenuOpen = ref(false)
