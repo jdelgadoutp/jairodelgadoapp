@@ -1,1 +1,0 @@
-import{_ as s,c as o,a as t,o as r}from"./index-DFVknDWR.js";const a={},c={class:"mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"};function n(l,e){return r(),o("div",c,e[0]||(e[0]=[t("h1",null,"Servicios integrales",-1)]))}const _=s(a,[["render",n]]);export{_ as default};
