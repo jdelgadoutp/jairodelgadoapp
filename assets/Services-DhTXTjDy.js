@@ -1,0 +1,1 @@
+import{_ as s,c as o,a as t,o as c}from"./index-CEB6ru8K.js";const r={},a={class:"mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"};function n(l,e){return c(),o("div",a,e[0]||(e[0]=[t("h1",null,"Servicios",-1)]))}const i=s(r,[["render",n]]);export{i as default};
