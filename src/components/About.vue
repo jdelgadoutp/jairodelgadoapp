@@ -1,9 +1,9 @@
 <template>
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <h1>Acerca de Jairo Delgado</h1>
-        <router-link :to="{ name: 'irAExterno' }">Ir a Pagar</router-link>
+<!--         <router-link :to="{ name: 'irAExterno' }">Ir a Pagar</router-link>
         <p>Id pago: {{ id }}</p>
-        <p>Evento: {{ env }}</p>
+        <p>Evento: {{ env }}</p> -->
     </div>
 </template>
 
