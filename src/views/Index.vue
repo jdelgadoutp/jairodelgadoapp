@@ -5,7 +5,7 @@
                 <div class="flex lg:flex-1">
                     <a href="#" class="-m-1.5 p-1.5">
                         <span class="sr-only">Enginer Jairo Delgado</span>
-                        <img class="h-8 w-auto" src="@/assets/logojairodelgado.png" alt="" />
+                        <img class="h-20 w-auto" src="@/assets/logojairodelgado.png" alt="" />
                     </a>
                 </div>
                 <div class="flex lg:hidden">
@@ -20,6 +20,7 @@
                     <RouterLink v-for="item in navigation" :key="item.path" :to="item.path"
                         class="text-sm/6 font-semibold text-gray-900">{{ item.name }}
                     </RouterLink>
+                    <Menu></Menu>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a href="#" class="text-sm/6 font-semibold text-gray-900">Login <span
@@ -33,7 +34,7 @@
                     <div class="flex items-center justify-between">
                         <a href="#" class="-m-1.5 p-1.5" @click="mobileMenuOpen = false">
                             <span class="sr-only">Enginer Jairo Delgado</span>
-                            <img class="h-8 w-auto" src="@/assets/logojairodelgado.png" alt="" />
+                            <img class="h-20 w-auto" src="@/assets/logojairodelgado.png" alt="" />
                         </a>
                         <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700"
                             @click="mobileMenuOpen = false">
@@ -49,6 +50,7 @@
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                                     {{ item.name }}
                                 </RouterLink>
+                                <Menu></Menu>
                             </div>
                             <div class="py-6">
                                 <a href="#"
@@ -88,12 +90,13 @@ import { ref } from 'vue'
 import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 import Footers from './Footers.vue';
+import Menu from '@/components/services/Menu.vue';
 
 const navigation = [
     { name: 'Inicio', path: '/' },
     { name: 'Acerca de', path: '/about' },
     { name: 'Proyectos', path: '/projects' },
-    { name: 'Servicios', path: '/services' },
+    //{ name: 'Servicios', path: '/services' },
     { name: "Contacto", path: '/contact' },
 ]
 
