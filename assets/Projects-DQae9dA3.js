@@ -1,0 +1,1 @@
+import{_ as o,c as s,b as r,o as t}from"./index-LLyZKPRk.js";const a={},c={class:"mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"};function n(l,e){return t(),s("div",c,e[0]||(e[0]=[r("h1",null,"Proyectos de desarrollo e Infraestructura",-1)]))}const d=o(a,[["render",n]]);export{d as default};
